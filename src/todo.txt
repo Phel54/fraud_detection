@@ -1,0 +1,4 @@
+- Track time - above 1hr, 20mins, date
+- Track location
+- Track amount with time
+- Limits on transactions
