@@ -2,3 +2,10 @@
 - Track location
 - Track amount with time
 - Limits on transactions
+
+
+- Back to back withdrawals of a the same amount within a short time span (5mins,30mins)
+- At the third time transaction takes place.
+- Detect change  state from ipAddress and flag as Yellow.
+- Detect change in country is Red.
+- 

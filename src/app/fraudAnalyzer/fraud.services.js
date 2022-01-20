@@ -77,7 +77,7 @@ class FraudDetectionServices {
             console.log(
                 ":::::::::Orange Flag.. Transaction ddnt happen in the same state::::::::"
               );
-              return this.orangeAlert() + `:::::::::Transaction ddnt happen in the same state:::::::: Transactions has hanppened in ${ previousTransactions[1].country.regionName} has happened ${value} times <-> and in  ${transactionData.country.regionName} ${check.numberOfOccurrence} times`;
+              return this.orangeAlert() + `:::::::::Transaction ddnt happen in the same state:::::::: Transactions has hanppened in ${ previousTransactions[1].country.regionName}  ${value} times <-> and in  ${transactionData.country.regionName} ${check.numberOfOccurrence} times`;
         }
       console.log(
         ":::::::::Orange Flag.. Transaction ddnt happen in the same state::::::::"
