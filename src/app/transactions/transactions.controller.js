@@ -27,5 +27,18 @@ class TransactionControllers {
         console.log(error)
         return apiResponse.errorResponse(res, error.errors)
          }}
+
+         async getAllTransaction(req, res) {
+          try {
+            let response = await transactionsServices.getTransactions(
+             
+            );
+            let message = "All transactions";
+            return apiResponse.successResponseWithData(res, message, response);
+          } catch (error) {
+            console.log(error);
+            return apiResponse.errorResponse(res, error.errors);
+          }
+        }
 }
 export default new TransactionControllers();

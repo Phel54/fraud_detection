@@ -37,8 +37,8 @@ router.get('/', (req, res, next) => {
     res.status(200).json({
         success: true,
         message: 'Welcome to Fraud Detection - API',
-        author: 'Wonchunii Ltd',
-        website: 'www.wonchunii.com',
+        author: 'iSICHEI PHELIM',
+      
     })
 })
 /**

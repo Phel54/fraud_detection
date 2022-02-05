@@ -18,7 +18,7 @@ class TransactionServices {
       
 
       async getTransactions(){
-        return await Transaction.find()
+        return await Transaction.find().sort({ _id: -1 })
       }
 }
 

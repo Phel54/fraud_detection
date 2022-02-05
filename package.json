@@ -19,6 +19,7 @@
     "hpp": "^0.2.3",
     "ip-fetch": "^1.0.9",
     "ip-locator": "^0.0.1",
+    "jest": "^27.4.7",
     "joi": "^17.4.2",
     "moment": "^2.29.1",
     "mongoose": "^6.0.4",
@@ -41,7 +42,8 @@
   },
   "scripts": {
     "start": "node src/app/index.js",
-    "dev": "nodemon src/app/index.js"
+    "dev": "nodemon src/app/index.js",
+    "test": "jest src/__test__"
   },
   "repository": {
     "type": "git",
